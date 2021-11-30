@@ -1,0 +1,27 @@
+PODS:
+  - DesignKit (0.1.0)
+  - Nimble (8.0.9)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - DesignKit (from `../`)
+  - Nimble (~> 8.0.7)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  DesignKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DesignKit: b41bb89990a0cbb84499ba12f7b074c4bdb6f1df
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: b04dfb4d1bbd5ed323f5cb9856b43451d6c1a78a
+
+COCOAPODS: 1.11.2
