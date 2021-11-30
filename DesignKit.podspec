@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   Contains ui components for Design System.
                        DESC
 
-  s.homepage         = 'https://github.com/samlauios/DesignKit'
+  s.homepage         = 'https://github.com/samlauios/designkit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'samlauios' => 'samlautest13@gmail.com' }
-  s.source           = { :git => 'https://github.com/samlauios/DesignKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/samlauios/designkit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.1'
