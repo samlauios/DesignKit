@@ -8,6 +8,8 @@
 import UIKit
 
 public extension UIFont {
+    static let designKit = DesignKitTypography.self
+
     enum DesignKitTypography {
         public static let display1 = scaled(baseFont: .systemFont(ofSize: 42, weight: .semibold), forTextStyle: .largeTitle, maximumFactor: 1.5)
         public static let display2 = scaled(baseFont: .systemFont(ofSize: 36, weight: .semibold), forTextStyle: .largeTitle, maximumFactor: 1.5)

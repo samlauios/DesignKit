@@ -8,6 +8,8 @@
 import UIKit
 
 public extension UIColor {
+    static let designKit = DesignKitPalette.self
+
     enum DesignKitPalette {
         public static let primaryColor = dynamicColor(lightColor: .init(hex: 0x0770e3), darkColor: .init(hex: 0x6d9feb))
         public static let backgroundColor = dynamicColor(lightColor: .white, darkColor: .black)
